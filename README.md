@@ -28,11 +28,16 @@ Open the notebook in the `run` folder and run the cells to get started
 - `settings_noise`: `true` or `false` whether or not noise will be applied to settings as well as player EV when solving with noise
 
 ### Meta settings
-- `solver_type`: `highs` to use the highs solver
+- `solver_type`: `highs`, `cbc`, or `gurobi` to select the solver used
 - `solver_path`: `null` or the absolute filepath in your computer directory to the `highs.exe`, with double backslashed
+- `gurobi_path`: `null` or the absolute filepath to the `gurobi_cl` executable, used when `solver_type` is `gurobi`
+- `mip_gap`: MIP gap tolerance passed to Gurobi, used when `solver_type` is `gurobi`
 - `presolve`: `true` or `false` to run a time-saving step to the solve
 - `use_cmd`: `true` or `false` to use `os.system` or `subprocess` for running solver, default is `false`
 - `time_limit`: number of seconds before solve is aborted
 - `delete_tmp`: `true` or `false` to delete the contents of the `tmp` folder when solve is completed
+
+### Input data
+- `input_data/sdt_name_aliases.csv`: manual overrides mapping Dream Team (SDT) player names to their `pl_player_priors.csv` reference name, for players listed under a press nickname that shares no token with their full legal name (e.g. "Ben White" vs "Benjamin White"). Edit this file as needed when new mismatches appear across transfer windows.
 
 With thanks to [Sertalp](https://github.com/sertalpbilal) for solver expertise, and [Elevenify](https://www.elevenify.com/) for generously sharing team projections
