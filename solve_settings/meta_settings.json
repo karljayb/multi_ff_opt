@@ -1,6 +1,6 @@
 {
     "solver_type": "highs",
-    "solver_path": null,
+    "solver_path": "/usr/local/bin/highs",
     "presolve": "on",
     "use_cmd": false,
     "time_limit": 300,
