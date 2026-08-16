@@ -1,4 +1,5 @@
 fplreview.csv
 solio.csv
 run/HiGHS.log
+run/gurobi.log
 run/tmp/.txt

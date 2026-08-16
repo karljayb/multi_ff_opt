@@ -1,8 +1,8 @@
 {
     "solver_type": "highs",
-    "solver_path": "/usr/local/bin/highs",
+    "solver_path": "",
     "gurobi_path": "/usr/local/bin/gurobi_cl",
-    "mip_gap": 0.01,
+    "mip_gap": 0.00,
     "presolve": "on",
     "use_cmd": false,
     "time_limit": 300,

@@ -113,3 +113,246 @@ Best objective -3.293443390000e+02, best bound -3.324338963571e+02, gap 0.9381%
 
 Wrote result file 'tmp/tff_mp_h43_d0.9_cfiYj_cfiYj_1_sol.sol'
 
+
+Gurobi 13.0.2 (mac64[arm], gurobi_cl) logging started Sun Aug 16 18:04:41 2026
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2683974
+Set parameter TimeLimit to value 300
+Set parameter MIPGap to value 0
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/karljb/gurobi.lic
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (mac64[arm] - Darwin 25.5.0 25F84)
+Copyright (c) 2026, Gurobi Optimization, LLC
+
+Read MPS format model from file tmp/sdt_mp_h10_d0.9_hmGaz_hmGaz_1.mps
+Reading time = 0.03 seconds
+sdt_mp_h10_d0.9_hmGaz: 17074 rows, 21715 columns, 75128 nonzeros
+
+Using Gurobi shared library /Library/gurobi1302/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M3 Pro
+Thread count: 11 physical cores, 11 logical processors, using up to 11 threads
+
+Non-default parameters:
+TimeLimit  300
+MIPGap  0
+
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+Optimize a model with 17074 rows, 21715 columns and 75128 nonzeros (Min)
+Model fingerprint: 0xc6faf6df
+Model has 13335 linear objective coefficients
+Variable types: 41 continuous, 21674 integer (21663 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+00]
+  Objective range  [6e-03, 1e+01]
+  Bounds range     [1e+00, 6e+00]
+  RHS range        [1e+00, 5e+01]
+
+Presolve removed 8920 rows and 1330 columns
+Presolve time: 0.07s
+Presolved: 8154 rows, 20385 columns, 51651 nonzeros
+Variable types: 0 continuous, 20385 integer (20347 binary)
+Found heuristic solution: objective -502.1945440
+
+Root relaxation: objective -5.762138e+02, 7898 iterations, 0.09 seconds (0.27 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -576.21385    0   41 -502.19454 -576.21385  14.7%     -    0s
+H    0     0                    -574.2686070 -576.21385  0.34%     -    0s
+H    0     0                    -575.4699020 -576.21385  0.13%     -    0s
+H    0     0                    -575.6006150 -576.21385  0.11%     -    0s
+     0     0 -576.00585    0   72 -575.60062 -576.00585  0.07%     -    0s
+     0     0 -576.00585    0   16 -575.60062 -576.00585  0.07%     -    0s
+     0     0 -576.00585    0   17 -575.60062 -576.00585  0.07%     -    0s
+     0     0 -575.92553    0   43 -575.60062 -575.92553  0.06%     -    0s
+     0     0 -575.92553    0   43 -575.60062 -575.92553  0.06%     -    0s
+     0     0 -575.92553    0   43 -575.60062 -575.92553  0.06%     -    0s
+H    0     0                    -575.9242950 -575.92430  0.00%     -    0s
+     0     0 -575.92430    0   43 -575.92430 -575.92430  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 6
+  Clique: 3
+  MIR: 3
+  StrongCG: 1
+  GUB cover: 4
+  Relax-and-lift: 1
+
+Explored 1 nodes (8095 simplex iterations) in 0.29 seconds (0.58 work units)
+Thread count was 11 (of 11 available processors)
+
+Solution count 5: -575.924 -575.601 -575.47 ... -502.195
+No other solutions better than -575.924
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -5.759242950000e+02, best bound -5.759242950000e+02, gap 0.0000%
+
+Wrote result file 'tmp/sdt_mp_h10_d0.9_hmGaz_hmGaz_1_sol.sol'
+
+
+Gurobi 13.0.2 (mac64[arm], gurobi_cl) logging started Sun Aug 16 18:05:47 2026
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2683974
+Set parameter TimeLimit to value 300
+Set parameter MIPGap to value 0
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/karljb/gurobi.lic
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (mac64[arm] - Darwin 25.5.0 25F84)
+Copyright (c) 2026, Gurobi Optimization, LLC
+
+Read MPS format model from file tmp/sdt_mp_h10_d0.9_LcLui_LcLui_1.mps
+Reading time = 0.02 seconds
+sdt_mp_h10_d0.9_LcLui: 17084 rows, 21715 columns, 75138 nonzeros
+
+Using Gurobi shared library /Library/gurobi1302/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M3 Pro
+Thread count: 11 physical cores, 11 logical processors, using up to 11 threads
+
+Non-default parameters:
+TimeLimit  300
+MIPGap  0
+
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+Optimize a model with 17084 rows, 21715 columns and 75138 nonzeros (Min)
+Model fingerprint: 0x3bee637f
+Model has 13335 linear objective coefficients
+Variable types: 41 continuous, 21674 integer (21663 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+00]
+  Objective range  [6e-03, 1e+01]
+  Bounds range     [1e+00, 6e+00]
+  RHS range        [1e+00, 5e+01]
+
+Presolve removed 8939 rows and 1360 columns
+Presolve time: 0.07s
+Presolved: 8145 rows, 20355 columns, 52054 nonzeros
+Variable types: 0 continuous, 20355 integer (20327 binary)
+Found heuristic solution: objective -260.1051900
+Found heuristic solution: objective -473.3219360
+
+Root relaxation: objective -5.685100e+02, 7666 iterations, 0.09 seconds (0.28 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -568.50996    0   22 -473.32194 -568.50996  20.1%     -    0s
+H    0     0                    -567.2939040 -568.50996  0.21%     -    0s
+H    0     0                    -567.3255170 -568.50996  0.21%     -    0s
+H    0     0                    -567.4246170 -568.50996  0.19%     -    0s
+     0     0 -567.89155    0   88 -567.42462 -567.89155  0.08%     -    0s
+     0     0 -567.89155    0   10 -567.42462 -567.89155  0.08%     -    0s
+     0     0 -567.80755    0   42 -567.42462 -567.80755  0.07%     -    0s
+     0     0 -567.80755    0   43 -567.42462 -567.80755  0.07%     -    0s
+     0     0 -567.48646    0   31 -567.42462 -567.48646  0.01%     -    0s
+     0     0     cutoff    0      -567.42462 -567.42462  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 6
+  Clique: 8
+  MIR: 11
+  StrongCG: 7
+  GUB cover: 3
+  RLT: 2
+  Relax-and-lift: 1
+
+Explored 1 nodes (8167 simplex iterations) in 0.30 seconds (0.61 work units)
+Thread count was 11 (of 11 available processors)
+
+Solution count 5: -567.425 -567.326 -567.294 ... -260.105
+No other solutions better than -567.425
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -5.674246170000e+02, best bound -5.674246170000e+02, gap 0.0000%
+
+Wrote result file 'tmp/sdt_mp_h10_d0.9_LcLui_LcLui_1_sol.sol'
+
+
+Gurobi 13.0.2 (mac64[arm], gurobi_cl) logging started Sun Aug 16 18:06:12 2026
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2683974
+Set parameter TimeLimit to value 300
+Set parameter MIPGap to value 0
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/karljb/gurobi.lic
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (mac64[arm] - Darwin 25.5.0 25F84)
+Copyright (c) 2026, Gurobi Optimization, LLC
+
+Read MPS format model from file tmp/tff_mp_h43_d0.9_cQsdD_cQsdD_1.mps
+Reading time = 0.04 seconds
+tff_mp_h43_d0.9_cQsdD: 19791 rows, 59149 columns, 175827 nonzeros
+
+Using Gurobi shared library /Library/gurobi1302/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M3 Pro
+Thread count: 11 physical cores, 11 logical processors, using up to 11 threads
+
+Non-default parameters:
+TimeLimit  300
+MIPGap  0
+
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+Optimize a model with 19791 rows, 59149 columns and 175827 nonzeros (Min)
+Model fingerprint: 0x893dac01
+Model has 22722 linear objective coefficients
+Variable types: 129 continuous, 59020 integer (59020 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+00]
+  Objective range  [5e-02, 8e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 5e+01]
+
+Presolve removed 454 rows and 1362 columns
+Presolve time: 0.11s
+Presolved: 19337 rows, 57787 columns, 153495 nonzeros
+Variable types: 0 continuous, 57787 integer (57658 binary)
+Found heuristic solution: objective 0.0000000
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.31s (can be avoided by choosing Method=3)
+
+Solved with dual simplex
+
+Root relaxation: objective -3.324339e+02, 12512 iterations, 1.04 seconds (2.21 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -332.43390    0  108    0.00000 -332.43390      -     -    1s
+H    0     0                    -329.3443390 -332.43390  0.94%     -    1s
+H    0     0                    -330.6897920 -332.43390  0.53%     -    1s
+H    0     0                    -331.2286810 -332.43390  0.36%     -    1s
+H    0     0                    -331.7393740 -332.43390  0.21%     -    1s
+     0     0 -332.36733    0  280 -331.73937 -332.36733  0.19%     -    1s
+     0     0 -332.36733    0   39 -331.73937 -332.36733  0.19%     -    1s
+     0     0 -331.87647    0   59 -331.73937 -331.87647  0.04%     -    1s
+     0     0     cutoff    0      -331.73937 -331.73937  0.00%     -    1s
+
+Explored 1 nodes (13263 simplex iterations) in 1.74 seconds (3.03 work units)
+Thread count was 11 (of 11 available processors)
+
+Solution count 6: -331.739 -331.229 -330.69 ... 0
+No other solutions better than -331.739
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective -3.317393740000e+02, best bound -3.317393740000e+02, gap 0.0000%
+
+Wrote result file 'tmp/tff_mp_h43_d0.9_cQsdD_cQsdD_1_sol.sol'
+
