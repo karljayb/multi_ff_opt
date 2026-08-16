@@ -1,0 +1,115 @@
+
+Gurobi 13.0.2 (mac64[arm], gurobi_cl) logging started Sun Aug 16 17:08:01 2026
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2683974
+Set parameter TimeLimit to value 120
+Set parameter MIPGap to value 0.01
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/karljb/gurobi.lic
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (mac64[arm] - Darwin 25.5.0 25F84)
+Copyright (c) 2026, Gurobi Optimization, LLC
+
+Warning: row name 49208,1] in column section at line 66349 not defined.
+Warning: row name am_count in column section at line 66349 not defined.
+Warning: row name 49208,2] in column section at line 66351 not defined.
+Warning: row name am_count in column section at line 66351 not defined.
+Warning: row name 49208,3] in column section at line 66353 not defined.
+Warning: row name am_count in column section at line 66353 not defined.
+Warning: row name 49208,4] in column section at line 66355 not defined.
+Warning: row name am_count in column section at line 66355 not defined.
+Warning: row name 49208,5] in column section at line 66357 not defined.
+Warning: row name am_count in column section at line 66357 not defined.
+Warning: row name 49208,6] in column section at line 66359 not defined.
+Warning: row name am_count in column section at line 66359 not defined.
+Warning: row name 49208,7] in column section at line 66361 not defined.
+Warning: row name am_count in column section at line 66361 not defined.
+Warning: row name 49208,8] in column section at line 66363 not defined.
+Warning: row name am_count in column section at line 66363 not defined.
+Warning: row name 49208,9] in column section at line 66365 not defined.
+Warning: row name am_count in column section at line 66365 not defined.
+Warning: row name 49208,10 in column section at line 66367 not defined.
+Warning: row name am_count in column section at line 66367 not defined.
+Warning: row name 49208,11 in column section at line 66369 not defined.
+Warning: row name am_count in column section at line 66369 not defined.
+Warning: row name 49208,12 in column section at line 66371 not defined.
+Warning: row name am_count in column section at line 66371 not defined.
+Warning: row name 49208,13 in column section at line 66373 not defined.
+2: Error at line 139176:
+        RHS                          valid_formation_1['F',43]     1.000000 team_budget[1]
+
+Error 10012: MPS read error at line 139176:
+        RHS                          valid_formation_1['F',43]     1.000000 team_budget[1]
+
+
+Gurobi 13.0.2 (mac64[arm], gurobi_cl) logging started Sun Aug 16 17:31:14 2026
+
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2683974
+Set parameter TimeLimit to value 300
+Set parameter MIPGap to value 0.01
+Set parameter LogFile to value "gurobi.log"
+Using license file /Users/karljb/gurobi.lic
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+
+Gurobi Optimizer version 13.0.2 build v13.0.2rc1 (mac64[arm] - Darwin 25.5.0 25F84)
+Copyright (c) 2026, Gurobi Optimization, LLC
+
+Read MPS format model from file tmp/tff_mp_h43_d0.9_cfiYj_cfiYj_1.mps
+Reading time = 0.05 seconds
+tff_mp_h43_d0.9_cfiYj: 19791 rows, 59149 columns, 175827 nonzeros
+
+Using Gurobi shared library /Library/gurobi1302/macos_universal2/lib/libgurobi130.dylib
+
+CPU model: Apple M3 Pro
+Thread count: 11 physical cores, 11 logical processors, using up to 11 threads
+
+Non-default parameters:
+TimeLimit  300
+MIPGap  0.01
+
+Academic license 2683974 - for non-commercial use only - registered to ab___@gmail.com
+Optimize a model with 19791 rows, 59149 columns and 175827 nonzeros (Min)
+Model fingerprint: 0x893dac01
+Model has 22722 linear objective coefficients
+Variable types: 129 continuous, 59020 integer (59020 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+00]
+  Objective range  [5e-02, 8e+00]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 5e+01]
+
+Presolve removed 454 rows and 1362 columns
+Presolve time: 0.12s
+Presolved: 19337 rows, 57787 columns, 153495 nonzeros
+Variable types: 0 continuous, 57787 integer (57658 binary)
+Found heuristic solution: objective 0.0000000
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.31s (can be avoided by choosing Method=3)
+
+Solved with dual simplex
+
+Root relaxation: objective -3.324339e+02, 12512 iterations, 1.04 seconds (2.21 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -332.43390    0  108    0.00000 -332.43390      -     -    1s
+H    0     0                    -329.3443390 -332.43390  0.94%     -    1s
+
+Explored 1 nodes (12768 simplex iterations) in 1.30 seconds (2.62 work units)
+Thread count was 11 (of 11 available processors)
+
+Solution count 2: -329.344 0 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective -3.293443390000e+02, best bound -3.324338963571e+02, gap 0.9381%
+
+Wrote result file 'tmp/tff_mp_h43_d0.9_cfiYj_cfiYj_1_sol.sol'
+
