@@ -3,3 +3,6 @@ solio.csv
 run/HiGHS.log
 run/gurobi.log
 run/tmp/.txt
+downloaded_files
+*.xlsx
+docs
