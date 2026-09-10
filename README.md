@@ -12,6 +12,7 @@ Open the notebook in the `run` folder and run the cells to get started
 - `weekly_decay`: ratio by which EV of each match in the future will be discounted per week. Applied on a basis of real time passed
 - `vicecap_weight`: incentive to having a strong vice-captain, as a fraction of that players expected points
 - `price_change_value`: SDT only, incentive for the solver to sell players who are dropping in price and buy those who are rising, expressed in points per 1m of net value gained
+- `use_predicted_prices`: SDT only, `true` or `false`. When `true`, the solver's budget for the upcoming gameweek onward is based on each player's predicted post-change price (only available ~1 gameweek out) rather than today's price, so transfer decisions reflect the actual value a rising/falling player will have by the time they're bought or sold. When `false` (default), the budget always uses today's prices, and `price_change_value` remains the only price-change influence (a points nudge for the immediate gameweek)
 - `use_team_json`: `true` or `false` whether to use a team uploaded to the `teams` folder, will overrule the other initial settings and will ignore if one is not found
 - `initial_team`: list of fpl codes e.g. `['', '']` defining the players at the start of the solve
 - `initial_itb`: money in millions available at the start of the solve
